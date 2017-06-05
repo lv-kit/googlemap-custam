@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+    hr {
+        margin: 30px auto;
+        width: 258px;
+    }
+}
+
+table tr {
+    padding-bottom: 10px;
+    vertical-align: text-top;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+    table tr {
+        padding: 5px 30px;
+        font-size: 12px;
+        line-height: 21.6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    table tr td {
+        display: block;
+        width: 100%;
+    }
+}
+
+table {
+    text-align: center;
+}
+
+table tr:last-child {
+    margin-bottom: 0;
+}
+
+table tr td:first-child {
+    color: #999;
+    width: 200px;
+}
+
+table tr .access_line {
+    display: inline-block;
+    width: 100px;
+}
+
+.map-canvas {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .map-canvas {
+        margin: 30px 0;
+        padding-bottom: 320px;
+    }
+}
+
+.map-canvas #map {
+    position: absolute;
+    width: 800px;
+    height: 450px;
+}
+
+@media screen and (max-width: 767px) {
+    .map-canvas #map {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
